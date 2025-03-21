@@ -1,0 +1,8 @@
+const menuButton = document.createElement('button');
+menuButton.id = 'menuButton'; // Agrega un ID para facilitar la selección
+menuButton.textContent = 'Mostrar/Ocultar Menú';
+menuButton.onclick = function() {
+  const menu = document.querySelector('.menu');
+  menu.style.display = menu.style.display === 'none' ? 'block' : 'none';
+};
+document.body.appendChild(menuButton);
