@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Capítulo 1: Atributos HTML para Niños</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Atributos HTML </h1>
+
+<h2>Capítulo 1: </h2>
+
+<h2>1. Atributos Básicos</h2>
+<h3>1.1. <code>class</code> y <code>id</code></h3>
+<p><code>class</code>: Es como ponerle una etiqueta a un grupo de cosas. Si tienes varios juguetes, puedes etiquetarlos a todos como "juguetes".<br>
+<code>id</code>: Es como el nombre único de una cosa. Si tienes un perro llamado "Firulais", solo hay un Firulais.</p>
+
+<div class="animal" id="perro1">
+  <p>Este es Firulais.</p>
+</div>
+<div class="animal" id="gato1">
+  <p>Este es Micifuz.</p>
+</div>
+
+<h3>Ejemplo:</h3>
+
+<pre>   <code class="language-html">
+&lt;div class="animal" id="perro1"&gt;
+&lt;p&gt;Este es Firulais.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="animal" id="gato1"&gt;
+&lt;p&gt;Este es Micifuz.&lt;/p&gt;
+&lt;/div&gt;
+</code>
+</pre>
+
+<h3>1.2. <code>style</code></h3>
+<p><code>style</code>: Es como pintar un dibujo. Puedes cambiar el color, el tamaño, y muchas cosas más. Aunque es mejor usar hojas de estilo externas (CSS) para una mejor organización, <code>style</code> es útil para cambios rápidos y sencillos.</p>
+
+<div style="background-color: lightblue; padding: 10px;">
+  <p>Este div es azul claro y tiene un poco de espacio alrededor.</p>
+</div>
+
+
+<h2>2. Creación de Columnas</h2>
+<h3>2.1. Uso de <code>&lt;div&gt;</code> y CSS (Flexbox)</h3>
+<p>Usaremos <code>flexbox</code> para crear columnas. Es como tener una caja mágica que organiza los elementos dentro de ella.</p>
+<div class="contenedor">
+  <div class="columna">Columna 1</div>
+  <div class="columna">Columna 2</div>
+  <div class="columna">Columna 3</div>
+</div>
+
+<h3>2.2. Uso de <code>&lt;table&gt;</code></h3>
+<p>Las tablas son como cuadros donde puedes poner información en filas y columnas.</p>
+<table>
+  <tr>
+    <th>Nombre</th>
+    <th>Edad</th>
+  </tr>
+  <tr>
+    <td>Max</td>
+    <td>5 años</td>
+  </tr>
+  <tr>
+    <td>Toby</td>
+    <td>3 años</td>
+  </tr>
+</table>
+
+<h3>2.3. Uso de <code>&lt;section&gt;</code> y <code>&lt;article&gt;</code></h3>
+<p>Estas etiquetas son como cajas grandes donde puedes guardar cosas importantes.</p>
+<section>
+  <article>
+    <h2>Artículo 1</h2>
+    <p>Este es el primer artículo.</p>
+  </article>
+  <article>
+    <h2>Artículo 2</h2>
+    <p>Este es el segundo artículo.</p>
+  </article>
+</section>
+
+<h3>2.4. Uso de <code>grid</code></h3>
+<p><code>grid</code> es como una hoja de papel cuadriculado donde puedes colocar tus elementos.</p>
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
+  <div>Columna 1</div>
+  <div>Columna 2</div>
+  <div>Columna 3</div>
+</div>
+
+<h2>3. Atributos Globales</h2>
+<!-- ... Resto de la sección 3 (Atributos Globales) con ejemplos ... -->
+
+</body>
+</html>
