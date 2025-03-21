@@ -1,0 +1,43 @@
+body { background-image: url('fondo.jpg')
+    ; background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed ;
+
+    border: 6px black;
+margin: 40px;}
+ h1 {
+ font-family:the 'Segoe UI', Tahoma, Geneva, Verdana; color: bisque;
+ font-size: xx-large;
+     border:6px turquoise;
+padding :50px;
+text-align: center;}
+
+ h4 {
+     background-color: bisque;
+
+ border:3px turquoise;
+}
+
+ div{background-color:bisque;
+
+}
+
+ pre{background-color:  rgba(255, 235, 205,0.6);
+    border:2px solid rgb(4, 78, 90);
+    margin-left: 40px
+
+}
+ p {background-color: rgba(255, 235, 205,0.6);
+    border: 2px snow;
+padding: 30px; }
+h3 {background-color: bisque;
+    border: 2px rgb(3, 55, 85);
+padding:30px;}
+h4 {background-color: rgba(255, 235, 205,0.6);
+    border: 2px snow;
+padding: 30px; }
+
+ul {background-color: rgba(255, 235, 205,0.8);
+    border: 2px snow;
+padding: 30px;}
+pre{ text-align: center; font-family: Georgia, 'Times New Roman', Times, serif;font-size: large;}
