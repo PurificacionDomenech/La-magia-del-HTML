@@ -1,7 +1,6 @@
 # La-magia-del-HTML
 comenzamos
 seguimos
-
 main
 casa
 main
